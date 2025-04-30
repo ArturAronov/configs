@@ -13,7 +13,7 @@
     "metrics": false
   },
   "base_keymap": "VSCode",
-  "ui_font_size": 16,
+  "ui_font_size": 15,
   "ui_font_family": ".SystemUIFont",
   "buffer_font_size": 12,
   "buffer_font_family": "Menlo",
@@ -28,20 +28,26 @@
     "light": "One Light",
     "dark": "VSCode Dark Modern"
   },
-  // "icon_theme": "Colored Zed Icons Theme Dark"
+  "icon_theme": "Colored Zed Icons Theme Dark",
   "terminal": {
     "dock": "right",
     "default_width": 444
   },
   "active_pane_modifiers": {
-    "inactive_opacity": 0.8,
-    "magnification": 1.0,
-    "border_size": 0.0
+    "inactive_opacity": 0.8
   },
   "unnecessary_code_fade": 0.6,
   "languages": {
     "Markdown": {
       "format_on_save": "on"
     }
+  },
+  "git_panel": {
+    "status_style": null
+  },
+  "tabs": {
+    "git_status": true,
+    "file_icons": true,
+    "show_diagnostics": "all"
   }
 }
