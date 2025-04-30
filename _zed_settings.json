@@ -39,9 +39,6 @@
     "border_size": 0.0
   },
   "unnecessary_code_fade": 0.6,
-  "workbench.colorCustomizations": {
-    "editorUnnecessaryCode.opacity": "#000005"
-  },
   "languages": {
     "Markdown": {
       "format_on_save": "on"
