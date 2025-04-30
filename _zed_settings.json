@@ -7,7 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "vim_mode": true,
+  "vim_mode": false,
   "telemetry": {
     "diagnostics": false,
     "metrics": false
@@ -37,6 +37,10 @@
     "inactive_opacity": 0.8,
     "magnification": 1.0,
     "border_size": 0.0
+  },
+  "unnecessary_code_fade": 0.6,
+  "workbench.colorCustomizations": {
+    "editorUnnecessaryCode.opacity": "#000005"
   },
   "languages": {
     "Markdown": {
