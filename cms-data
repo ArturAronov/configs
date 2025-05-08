@@ -1,0 +1,3 @@
+docker cp 20250504_20_utc.archive marketing-payload-cms-mongo-1:/20250504_20_utc.archive
+docker exec -it marketing-payload-cms-mongo-1 bash
+mongorestore --archive=/20250504_20_utc.archive
