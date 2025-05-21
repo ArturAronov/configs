@@ -5,7 +5,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 cd Desktop
-alias zed="open -a /Applications/Zed.app -n"
+alias zed="/Applications/Zed.app/Contents/MacOS/cli"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
